@@ -1,0 +1,57 @@
+Modulos:
+
+1° Modulo(Cadastro de candidatos)
+
+- Id
+- Email (Chave primária)
+- Nome Completo
+- Senha
+- Telefone
+- Linkedin
+- Arquivo PDF do curriculo (Apenas PDF) (Campo nao obrigatorio)
+
+2° (Candidatura em Vagas)
+
+Exigencia: Usuario tem que estar logado ou cadastrar no momento da candidatura
+
+- Id
+- IdVaga
+- IdCandidato
+- Data e Horario
+
+
+3° Modulo (Visualização do candidato)
+
+- Visualizar todas as vagas com o status Ativo
+
+- Poder se candidatar nas vagas caso esteja logado
+
+
+4° Modulo (Visualização do administrador)
+
+- Visualizar candidatos dos ultimos 15 dias
+
+- Visualizar candidatos por vaga
+
+- Cadastro de administrador
+
+- Cadastro de Vagas
+
+- Id da VAga (Chave primária)
+- Titulo da vaga
+- Ter um campo com um espaço grande para a descrição da vaga
+- Status (Ativo e Inativo)
+- Empresa (Campo privado para administradores)
+
+- Candidatura manual em vagas (Candidatura interna)
+
+- Nome do candidato
+- Idade
+- Cidade
+- Nivel de Inglês
+- Stack
+- Tecnologia/Ferramentas
+- Certificação
+- Observação
+- Telefone
+- Linkedin

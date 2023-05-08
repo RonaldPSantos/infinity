@@ -9,3 +9,16 @@
 /.vs/infinity-talent/obj
 /.vs/infinity-talent/v17
 /.vs/ProjectEvaluation
+/.vs/ProjectEvaluation/infinity-talent.projects.v5.2
+/.vs/infinity-talent/v17/.suo
+*.dll
+*.pdb
+/infinity-talent/bin/Debug/net5.0/infinity-talent.runtimeconfig.dev.json
+/infinity-talent/bin/Debug/net6.0
+/infinity-talent/obj/Debug/net5.0/ref/infinity-talent.dll
+/infinity-talent/obj/Debug/net5.0/refint/infinity-talent.dll
+/infinity-talent/obj/Debug/net5.0
+/infinity-talent/obj/Debug/net6.0/staticwebassets
+/infinity-talent/obj/Debug/net6.0
+/infinity-talent/obj
+/.vs/infinity-talent/DesignTimeBuild/.dtbcache.v2

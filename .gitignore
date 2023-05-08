@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/infinity-talent/DesignTimeBuild
+/.vs/infinity-talent/v17
+/.vs/infinity-talent/FileContentIndex
+/.vs/infinity-talent/bin
+/.vs/infinity-talent/obj
+/.vs/infinity-talent/v17
+/.vs/ProjectEvaluation

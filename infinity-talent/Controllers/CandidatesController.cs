@@ -15,6 +15,7 @@ namespace infinity_talent.Controllers
             _candidateService = canndidateService;
         }
 
+        [Authorize]
         [HttpPost("add-candidate")]
         public IActionResult AddCandidate([FromBody] CandidateVM candidate)
         {
@@ -22,7 +23,7 @@ namespace infinity_talent.Controllers
             return Ok();
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpGet("get-all-candidates")]
         public IActionResult GetAllCandidates()
         {
@@ -37,6 +38,7 @@ namespace infinity_talent.Controllers
             return Ok(candidate);
         }
 
+        [Authorize]
         [HttpPut("update-candidate-by-id/{id}")]
         public IActionResult UpdateCandidate(int id, [FromBody] CandidateVM candidate)
         {

@@ -44,7 +44,10 @@ namespace infinity_talent.Data.Services
             if (_user != null)
             {
                 _user.Username = user.Username;
-                _user.Password = user.Password;
+                using (MD5 md5Hash = MD5.Create())
+                {
+                    _user.Password = Util.Helpers.GetMd5Hash(md5Hash, _user.Password);
+                }
                 _user.Role = user.Role;
 
                 _context.SaveChanges();
